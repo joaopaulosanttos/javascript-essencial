@@ -1,1 +1,1 @@
-# javascript-essencial
+# FUNDAMENTOS DO JAVASCRIPT ES6
