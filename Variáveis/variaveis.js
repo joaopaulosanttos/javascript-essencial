@@ -1,10 +1,3 @@
-console.log("Hello World Javascript!");
-
-// Console 
-console.error("Este é um erro!");
-console.warn("Este é um aviso!");
-console.log("Esta é uma mensagem!");
-
 // Variáveis
 var x = 10;
 // mais modernas 
@@ -23,4 +16,3 @@ console.log(z);
 x = 15;
 
 console.log(x);
-
