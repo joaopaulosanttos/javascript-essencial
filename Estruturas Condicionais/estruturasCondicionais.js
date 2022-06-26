@@ -12,7 +12,7 @@ if(a > 8) {
 // >, <, >=, <= 
 
 const b = 'Paulo Henrique';
-// == Verifica se os valores da varáveis é iguais 
+// == Verifica se os valores das varáveis são iguais 
 // === Verifica se os valores e os tipos das varivais são estritamente iguais 
 
 // if... else if
