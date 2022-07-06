@@ -30,5 +30,24 @@ const someNumber = 14;
 let testingANumber = someNumber < 20 ? 'Yes' : 'No';
 console.log(testingANumber);
 
+// switch - É usado para realizar diferentes ações com base em diferentes condiçoes no mesmo bloco de verificação. 
+// Caso a condição não seja compátivel não será executada e o valor padrão sera acionado. 
+let expressao = 'z';
+
+switch(expressao) {
+    case 'a':
+        console.log('A expressão é igual a letra "A"');
+        break;
+    case 'b':
+        console.log('A expressão é igual a letra "B"');
+        break;
+    case 'c':
+        console.log('A expressão é igual a letra "C"');
+        break;
+    default:
+        console.log('Nenhuma das opções');
+}
+
+
 
 
