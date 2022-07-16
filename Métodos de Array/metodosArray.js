@@ -55,7 +55,8 @@ numeros.sort(function(a,b){
 })
 console.log(numeros);
 
-//
+// filter() - método cria um novo array preenchido com elementos que passam em um teste fornecido por uma função,
+// não executa a função para elementos vazios, não altera a matriz original. 
 const Maior100 = numeros.filter((value, index, array)=> {
     return value > 100;
 })
@@ -104,4 +105,12 @@ const [n1, n2] = list;
 
 console.log(n1);
 console.log(n2);
+
+// includes() - método retorna true se uma matriz contiver um valor especificado, método retorna falsese o valor não for encontrado.
+let profissoes = ['Programador', 'Médico', 'Juiz', 'Advogada', 'Professor', 'Policial'];
+console.log(profissoes.includes('Enfermeiro'));
+
+// indexOf() - retorna o primeiro índice em que o elemento pode ser encontrado no array, retorna -1 caso o mesmo não esteja presente.
+console.log(profissoes.indexOf('Juiz'));
+
 
